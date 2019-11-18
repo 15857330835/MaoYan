@@ -1,0 +1,37 @@
+footer{
+    height: .48rem;
+    border-top: 1px solid #ccc;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        li{
+            height: 100%;
+            width: 100%;
+            a{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                i{
+                    color: #696969;
+                    font-size: .21rem;
+                }
+                span{
+                    font-size: .1rem;
+                    color: #696969;
+                }
+                &.active{
+                    i{
+                        color: #f03d37;
+                    }
+                    span{
+                        color: #f03d37;
+                    }
+                }
+            }
+        }
+    }
+}
